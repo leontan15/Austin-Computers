@@ -1,0 +1,6 @@
+*/ Adjust collmum */
+div.column {
+    float: left;
+    position: relative;
+    width: 50%;
+}
