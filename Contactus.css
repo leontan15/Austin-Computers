@@ -1,6 +1,24 @@
-*/ Adjust collmum */
+/*Adjust collmum */
 div.column {
     float: left;
     position: relative;
     width: 50%;
+}
+/*fix botton*/
+button.button {
+    width: 100px;
+}
+/* fix row */
+.row .row {
+    margin: 0 -16px 0 -16px;
+    width: 100%;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+div.column {
+    float: left;
+    position: relative;
+    width: 51%;
+}
 }
