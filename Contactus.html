@@ -1,0 +1,66 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+    box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Find a store near you from our <a href="http://www.austin.net.au/store-locations/">store locator</a></h2>
+
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <div>{{widget type="formbuilder/form" form_id="1"}}</div>
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Osborne Park</h2>
+    <p>3/52 Frobisher St, Osborne Park 
+    <br>Australia  WA  6017
+    <br><strong>08 9202 0100</strong>
+    <br><a href="mailto:sales@austin.net.au">sales@austin.net.au </a></p>
+    <br>
+    <h2>Midland</h2>
+    <p>4 Nicholson Rd, Cannington 
+    <br>Australia  WA  6107
+    <br><strong>08 9202 0103</strong>
+    <br><a href="mailto:sales.ca@austin.net.au">sales.ca@austin.net.au </a></p>
+    <br>
+    <h2>Cannington</h2>
+    <p>4 Nicholson Rd, Cannington 
+    <br>Australia  WA  6107
+    <br><strong>08 9202 0104</strong>
+    <br><a href="mailto:sales.ca@austin.net.au">sales.ca@austin.net.au </a></p>
+    <br>
+    <h2>Bibra Lake</h2>
+    <p>3/52 Frobisher St, Osborne Park 
+    <br>Australia  WA  6017
+    <br><strong>08 9202 0105</strong>
+    <br><a href="mailto:sales@austin.net.au">sales@austin.net.au </a></p>
+    <br>
+    <h2>Rockingham</h2>
+    <p>3/52 Frobisher St, Osborne Park 
+    <br>Australia  WA  6017
+    <br><strong>08 9202 0102</strong>
+    <br><a href="mailto:sales@austin.net.au">sales@austin.net.au </a></p>
+  </div>
+</div>
+
+</body>
+</html>
