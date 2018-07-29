@@ -21,6 +21,31 @@
     clear: both;
 }
 
+/*Adjust collmum */
+div.column {
+    float: left;
+    position: relative;
+    width: 50%;
+}
+/*fix botton*/
+button.button {
+    width: 100px;
+}
+/* fix row */
+.row .row {
+    margin: 0 -16px 0 -16px;
+    width: 100%;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+div.column {
+    float: left;
+    position: relative;
+    width: 51%;
+}
+}
+
 }
 </style>
 </head>
@@ -40,10 +65,7 @@
 
 <div class="row left">
   <div class="column" style="background-color:#ffffff;">
-    <div>{{widget type="formbuilder/form" form_id="1"}}</div>
-  </div>
-  <div class="column" style="background-color:#ffffff;">
-    <h2>Osborne Park</h2>
+      <h2>Osborne Park</h2>
     <p>3/52 Frobisher St, Osborne Park 
     <br>Australia  WA  6017
     <br><strong>08 9202 0100</strong>
@@ -74,6 +96,9 @@
     <br>Australia  WA  6017
     <br><strong>08 9202 0102</strong>
     <br><a href="mailto:sales.roc@austin.net.au">sales.roc@austin.net.au </a></p>
+  </div>
+  <div class="column" style="background-color:#ffffff;">
+  <div>{{widget type="formbuilder/form" form_id="1"}}</div>
   </div>
   
     
